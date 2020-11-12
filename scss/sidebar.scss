@@ -1,0 +1,32 @@
+.sidebar {
+  padding: 0.5rem;
+  background-color: #0a2b28;
+  color: #fff;
+
+  .soc-network a {
+    background-color: #ccc;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    &:hover {
+      background-color: #ff9f9f;
+    }
+
+    i {
+      color: #fff;
+    }
+  }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+
+      &:hover {
+        color: #ff9f9f;
+      }
+    }
+  }
+}

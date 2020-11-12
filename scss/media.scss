@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .text-holder {
+    padding-right: 0 !important;
+  }
+  .sidebar-holder {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  footer {
+    justify-content: center;
+  }
+}

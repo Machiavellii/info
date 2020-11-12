@@ -1,0 +1,18 @@
+footer {
+  padding: 1rem;
+  background: #1c4c48;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .footer-nav a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 0.2rem;
+
+    &:hover {
+      color: #ff9f9f;
+    }
+  }
+}

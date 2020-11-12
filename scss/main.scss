@@ -1,0 +1,22 @@
+@import "helper.scss";
+@import "navbar.scss";
+@import "sidebar.scss";
+@import "media.scss";
+
+@import "footer.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.text {
+  background-color: #10544e;
+  color: #fff;
+  padding: 1rem;
+}
